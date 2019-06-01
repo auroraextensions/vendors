@@ -5,13 +5,15 @@
     <tr>
       <th>Name</th>
       <th>Namespace(s)</th>
-      <th>Support Contact</th>
+      <th>Support</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Aurora Extensions</td>
-      <td>`AuroraExtensions`</td>
+      <td>
+        <code>AuroraExtensions</code>
+      </td>
       <td>support@auroraextensions.com</td>
     </tr>
   </tbody>
