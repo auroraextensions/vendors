@@ -29,6 +29,26 @@
       <td>&#10004;</td>
     </tr>
     <tr>
+      <td>OneStepCheckout</td>
+      <td>
+        <code>Onestepcheckout</code>
+      </td>
+      <td>
+        <a href="https://www.onestepcheckout.com/contacts">https://www.onestepcheckout.com/contacts</a>
+      </td>
+      <td>&#10004;</td>
+    </tr>
+    <tr>
+      <td>ParadoxLabs</td>
+      <td>
+        <code>ParadoxLabs</code>
+      </td>
+      <td>
+        <a href="https://www.paradoxlabs.com/contact/">https://www.paradoxlabs.com/contact/</a>
+      </td>
+      <td>&#10004;</td>
+    </tr>
+    <tr>
       <td>Yireo</td>
       <td>
         <code>Yireo</code>
