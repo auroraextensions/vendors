@@ -5,6 +5,7 @@
     <tr>
       <th>Name</th>
       <th>Namespace(s)</th>
+      <th>Support Contact</th>
     </tr>
   </thead>
   <tbody>
