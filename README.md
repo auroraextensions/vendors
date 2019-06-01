@@ -6,6 +6,7 @@
       <th>Name</th>
       <th>Namespace(s)</th>
       <th>Support</th>
+      <th>ExtDN Member</th>
     </tr>
   </thead>
   <tbody>
@@ -15,6 +16,27 @@
         <code>AuroraExtensions</code>
       </td>
       <td>support@auroraextensions.com</td>
+      <td>&#10004;</td>
+    </tr>
+    <tr>
+      <td>Fooman</td>
+      <td>
+        <code>Fooman</code>
+      </td>
+      <td>
+        <a href="https://store.fooman.co.nz/contacts">https://store.fooman.co.nz/contacts</a>
+      </td>
+      <td>&#10004;</td>
+    </tr>
+    <tr>
+      <td>Yireo</td>
+      <td>
+        <code>Yireo</code>
+      </td>
+      <td>
+        <a href="https://www.yireo.com/contact">https://www.yireo.com/contact</a>
+      </td>
+      <td>&#10004;</td>
     </tr>
   </tbody>
 </table>
