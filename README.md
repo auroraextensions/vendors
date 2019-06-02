@@ -22,6 +22,16 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
   </thead>
   <tbody>
     <tr>
+      <td>Aheadworks</td>
+      <td>
+        <code>Aheadworks</code>
+      </td>
+      <td>
+        <a href="https://ecommerce.aheadworks.com/contacts">https://ecommerce.aheadworks.com/contacts</a>
+      </td>
+      <td>&#10004;</td>
+    </tr>
+    <tr>
       <td>Amasty</td>
       <td>
         <code>Amasty</code>
@@ -39,6 +49,36 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       </td>
       <td>
         <a href="https://auroraextensions.com/pages/contact-us">https://auroraextensions.com/pages/contact-us</a>
+      </td>
+      <td>&#10004;</td>
+    </tr>
+    <tr>
+      <td>Cobby</td>
+      <td>
+        <code>Cobby</code>
+      </td>
+      <td>
+        <a href="https://help.cobby.io">https://help.cobby.io</a>
+      </td>
+      <td>&#10004;</td>
+    </tr>
+    <tr>
+      <td>CustomGento</td>
+      <td>
+        <code>CustomGento</code>
+      </td>
+      <td>
+        <a href="mailto:info@customgento.com">info@customgento.com</a>
+      </td>
+      <td>&#10004;</td>
+    </tr>
+    <tr>
+      <td>Ebizmarts</td>
+      <td>
+        <code>Ebizmarts</code>
+      </td>
+      <td>
+        <a href="https://ebizmarts.com/contact-us">https://ebizmarts.com/contact-us</a>
       </td>
       <td>&#10004;</td>
     </tr>
@@ -63,6 +103,16 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       <td>&#10004;</td>
     </tr>
     <tr>
+      <td>integer_net</td>
+      <td>
+        <code>Integernet</code>
+      </td>
+      <td>
+        <a href="https://www.integer-net.de/kontakt">https://www.integer-net.de/kontakt</a>
+      </td>
+      <td>&#10004;</td>
+    </tr>
+    <tr>
       <td>MageModule</td>
       <td>
         <code>MageModule</code>
@@ -81,6 +131,16 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
         <a href="https://mirasvit.com/contact">https://mirasvit.com/contact</a>
       </td>
       <td>&ndash;</td>
+    </tr>
+    <tr>
+      <td>Modulwerft</td>
+      <td>
+        <code>Modulwerft</code>
+      </td>
+      <td>
+        <a href="https://www.modulwerft.com/contacts">https://www.modulwerft.com/contacts</a>
+      </td>
+      <td>&#10004;</td>
     </tr>
     <tr>
       <td>Netresearch</td>
@@ -109,6 +169,26 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       </td>
       <td>
         <a href="https://www.paradoxlabs.com/contact/">https://www.paradoxlabs.com/contact/</a>
+      </td>
+      <td>&#10004;</td>
+    </tr>
+    <tr>
+      <td>Rocket Web</td>
+      <td>
+        <code>RocketWeb</code>
+      </td>
+      <td>
+        <a href="https://rocketweb.com/contact">https://rocketweb.com/contact</a>
+      </td>
+      <td>&#10004;</td>
+    </tr>
+    <tr>
+      <td>WebShopApps</td>
+      <td>
+        <code>WebShopApps</code>
+      </td>
+      <td>
+        <a href="https://webshopapps.com/contacts">https://webshopapps.com/contacts</a>
       </td>
       <td>&#10004;</td>
     </tr>
