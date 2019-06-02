@@ -53,6 +53,16 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       <td>&#10004;</td>
     </tr>
     <tr>
+      <td>CedCommerce</td>
+      <td>
+        <code>CedCommerce</code>
+      </td>
+      <td>
+        <a href="https://support.cedcommerce.com">https://support.cedcommerce.com</a>
+      </td>
+      <td>&ndash;</td>
+    </tr>
+    <tr>
       <td>Cobby</td>
       <td>
         <code>Cobby</code>
@@ -123,6 +133,26 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       <td>&#10004;</td>
     </tr>
     <tr>
+      <td>Magenest</td>
+      <td>
+        <code>Magenest</code>
+      </td>
+      <td>
+        <a href="https://magenest.com/en/contact-us/">https://magenest.com/en/contact-us/</a>
+      </td>
+      <td>&ndash;</td>
+    </tr>
+    <tr>
+      <td>MageWorx</td>
+      <td>
+        <code>MageWorx</code>
+      </td>
+      <td>
+        <a href="https://www.mageworx.com/support/">https://www.mageworx.com/support/</a>
+      </td>
+      <td>&ndash;</td>
+    </tr>
+    <tr>
       <td>Mirasvit</td>
       <td>
         <code>Mirasvit</code>
@@ -173,6 +203,16 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       <td>&#10004;</td>
     </tr>
     <tr>
+      <td>Plugin Company</td>
+      <td>
+        <code>PluginCompany</code>
+      </td>
+      <td>
+        <a href="https://plugin.company/contact">https://plugin.company/contact</a>
+      </td>
+      <td>&ndash;</td>
+    </tr>
+    <tr>
       <td>Rocket Web</td>
       <td>
         <code>RocketWeb</code>
@@ -189,6 +229,16 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       </td>
       <td>
         <a href="https://webshopapps.com/contacts">https://webshopapps.com/contacts</a>
+      </td>
+      <td>&#10004;</td>
+    </tr>
+    <tr>
+      <td>Xtento</td>
+      <td>
+        <code>Xtento</code>
+      </td>
+      <td>
+        <a href="https://www.xtento.com/contacts">https://www.xtento.com/contacts</a>
       </td>
       <td>&#10004;</td>
     </tr>
