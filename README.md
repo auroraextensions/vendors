@@ -35,6 +35,7 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       <td>Aurora Extensions</td>
       <td>
         <code>AuroraExtensions</code>
+        <code>NickolasBurr</code>
       </td>
       <td>
         <a href="https://auroraextensions.com/pages/contact-us">https://auroraextensions.com/pages/contact-us</a>
