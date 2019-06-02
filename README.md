@@ -103,6 +103,16 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       <td>&#10004;</td>
     </tr>
     <tr>
+      <td>FME Extensions</td>
+      <td>
+        <code>FMEExtensions</code>
+      </td>
+      <td>
+        <a href="https://www.fmeextensions.com/contacts">https://www.fmeextensions.com/contacts</a>
+      </td>
+      <td>&ndash;</td>
+    </tr>
+    <tr>
       <td>Fooman</td>
       <td>
         <code>Fooman</code>
@@ -213,6 +223,16 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       <td>&ndash;</td>
     </tr>
     <tr>
+      <td>Pronko Consulting</td>
+      <td>
+        <code>Pronko</code>
+      </td>
+      <td>
+        <a href="https://www.pronkoconsulting.com/contact">https://www.pronkoconsulting.com/contact</a>
+      </td>
+      <td>&#10004;</td>
+    </tr>
+    <tr>
       <td>Rocket Web</td>
       <td>
         <code>RocketWeb</code>
@@ -221,6 +241,17 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
         <a href="https://rocketweb.com/contact">https://rocketweb.com/contact</a>
       </td>
       <td>&#10004;</td>
+    </tr>
+    <tr>
+      <td>Templates Master</td>
+      <td>
+        <code>TM</code>
+        <code>Swissup</code>
+      </td>
+      <td>
+        <a href="https://templates-master.com/contacts">https://templates-master.com/contacts</a>
+      </td>
+      <td>&ndash;</td>
     </tr>
     <tr>
       <td>WebShopApps</td>
