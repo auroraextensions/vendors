@@ -46,6 +46,18 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       <td>&ndash;</td>
     </tr>
     <tr>
+      <td>Atwix</td>
+      <td>
+        <div>
+          <code>Atwix</code>
+        </div>
+      </td>
+      <td>
+        <a href="https://www.atwix.com/contact/">https://www.atwix.com/contact/</a>
+      </td>
+      <td>&ndash;</td>
+    </tr>
+    <tr>
       <td>Aurora Extensions</td>
       <td>
         <div>
@@ -107,6 +119,18 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
         <a href="https://ebizmarts.com/contact-us">https://ebizmarts.com/contact-us</a>
       </td>
       <td>&#10004;</td>
+    </tr>
+    <tr>
+      <td>Extendware</td>
+      <td>
+        <div>
+          <code>Extendware</code>
+        </div>
+      </td>
+      <td>
+        <a href="https://www.extendware.com/contacts">https://www.extendware.com/contacts</a>
+      </td>
+      <td>&ndash;</td>
     </tr>
     <tr>
       <td>Firebear Studio</td>
@@ -177,6 +201,30 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       </td>
       <td>
         <a href="https://magenest.com/en/contact-us/">https://magenest.com/en/contact-us/</a>
+      </td>
+      <td>&ndash;</td>
+    </tr>
+    <tr>
+      <td>Mageside</td>
+      <td>
+        <div>
+          <code>Mageside</code>
+        </div>
+      </td>
+      <td>
+        <a href="https://mageside.com/contacts">https://mageside.com/contacts</a>
+      </td>
+      <td>&ndash;</td>
+    </tr>
+    <tr>
+      <td>Magewares</td>
+      <td>
+        <div>
+          <code>Magewares</code>
+        </div>
+      </td>
+      <td>
+        <a href="mailto:support@magewares.com">support@magewares.com</a>
       </td>
       <td>&ndash;</td>
     </tr>
@@ -314,6 +362,30 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
         <a href="https://webshopapps.com/contacts">https://webshopapps.com/contacts</a>
       </td>
       <td>&#10004;</td>
+    </tr>
+    <tr>
+      <td>WeltPixel</td>
+      <td>
+        <div>
+          <code>WeltPixel</code>
+        </div>
+      </td>
+      <td>
+        <a href="https://support.weltpixel.com">https://support.weltpixel.com</a>
+      </td>
+      <td>&ndash;</td>
+    </tr>
+    <tr>
+      <td>Wyomind</td>
+      <td>
+        <div>
+          <code>Wyomind</code>
+        </div>
+      </td>
+      <td>
+        <a href="https://www.wyomind.com/contact.html">https://www.wyomind.com/contact.html</a>
+      </td>
+      <td>&ndash;</td>
     </tr>
     <tr>
       <td>Xtento</td>
