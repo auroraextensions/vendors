@@ -17,14 +17,16 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       <th>Vendor</th>
       <th>Namespace(s)</th>
       <th>Support</th>
-      <th>ExtDN Member</th>
+      <th>ExtDN</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Aheadworks</td>
       <td>
-        <code>Aheadworks</code>
+        <div>
+          <code>Aheadworks</code>
+        </div>
       </td>
       <td>
         <a href="https://ecommerce.aheadworks.com/contacts">https://ecommerce.aheadworks.com/contacts</a>
@@ -34,7 +36,9 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
     <tr>
       <td>Amasty</td>
       <td>
-        <code>Amasty</code>
+        <div>
+          <code>Amasty</code>
+        </div>
       </td>
       <td>
         <a href="https://amasty.com/contacts">https://amasty.com/contacts</a>
@@ -44,8 +48,12 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
     <tr>
       <td>Aurora Extensions</td>
       <td>
-        <code>AuroraExtensions</code>
-        <code>NickolasBurr</code>
+        <div>
+          <code>AuroraExtensions</code>
+        </div>
+        <div>
+          <code>NickolasBurr</code>
+        </div>
       </td>
       <td>
         <a href="https://auroraextensions.com/pages/contact-us">https://auroraextensions.com/pages/contact-us</a>
@@ -55,7 +63,9 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
     <tr>
       <td>CedCommerce</td>
       <td>
-        <code>CedCommerce</code>
+        <div>
+          <code>CedCommerce</code>
+        </div>
       </td>
       <td>
         <a href="https://support.cedcommerce.com">https://support.cedcommerce.com</a>
@@ -65,7 +75,9 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
     <tr>
       <td>Cobby</td>
       <td>
-        <code>Cobby</code>
+        <div>
+          <code>Cobby</code>
+        </div>
       </td>
       <td>
         <a href="https://help.cobby.io">https://help.cobby.io</a>
@@ -75,7 +87,9 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
     <tr>
       <td>CustomGento</td>
       <td>
-        <code>CustomGento</code>
+        <div>
+          <code>CustomGento</code>
+        </div>
       </td>
       <td>
         <a href="mailto:info@customgento.com">info@customgento.com</a>
@@ -85,7 +99,9 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
     <tr>
       <td>Ebizmarts</td>
       <td>
-        <code>Ebizmarts</code>
+        <div>
+          <code>Ebizmarts</code>
+        </div>
       </td>
       <td>
         <a href="https://ebizmarts.com/contact-us">https://ebizmarts.com/contact-us</a>
@@ -95,7 +111,9 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
     <tr>
       <td>Firebear Studio</td>
       <td>
-        <code>Firebear</code>
+        <div>
+          <code>Firebear</code>
+        </div>
       </td>
       <td>
         <a href="https://firebearstudio.com/contacts">https://firebearstudio.com/contacts</a>
@@ -105,7 +123,9 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
     <tr>
       <td>FME Extensions</td>
       <td>
-        <code>FMEExtensions</code>
+        <div>
+          <code>FMEExtensions</code>
+        </div>
       </td>
       <td>
         <a href="https://www.fmeextensions.com/contacts">https://www.fmeextensions.com/contacts</a>
@@ -115,7 +135,9 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
     <tr>
       <td>Fooman</td>
       <td>
-        <code>Fooman</code>
+        <div>
+          <code>Fooman</code>
+        </div>
       </td>
       <td>
         <a href="https://store.fooman.co.nz/contacts">https://store.fooman.co.nz/contacts</a>
@@ -125,7 +147,9 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
     <tr>
       <td>integer_net</td>
       <td>
-        <code>Integernet</code>
+        <div>
+          <code>Integernet</code>
+        </div>
       </td>
       <td>
         <a href="https://www.integer-net.de/kontakt">https://www.integer-net.de/kontakt</a>
@@ -135,7 +159,9 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
     <tr>
       <td>MageModule</td>
       <td>
-        <code>MageModule</code>
+        <div>
+          <code>MageModule</code>
+        </div>
       </td>
       <td>
         <a href="https://www.magemodule.com/contact">https://www.magemodule.com/contact</a>
@@ -145,7 +171,9 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
     <tr>
       <td>Magenest</td>
       <td>
-        <code>Magenest</code>
+        <div>
+          <code>Magenest</code>
+        </div>
       </td>
       <td>
         <a href="https://magenest.com/en/contact-us/">https://magenest.com/en/contact-us/</a>
@@ -155,7 +183,9 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
     <tr>
       <td>MageWorx</td>
       <td>
-        <code>MageWorx</code>
+        <div>
+          <code>MageWorx</code>
+        </div>
       </td>
       <td>
         <a href="https://www.mageworx.com/support/">https://www.mageworx.com/support/</a>
@@ -165,7 +195,9 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
     <tr>
       <td>Mirasvit</td>
       <td>
-        <code>Mirasvit</code>
+        <div>
+          <code>Mirasvit</code>
+        </div>
       </td>
       <td>
         <a href="https://mirasvit.com/contact">https://mirasvit.com/contact</a>
@@ -175,7 +207,9 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
     <tr>
       <td>Modulwerft</td>
       <td>
-        <code>Modulwerft</code>
+        <div>
+          <code>Modulwerft</code>
+        </div>
       </td>
       <td>
         <a href="https://www.modulwerft.com/contacts">https://www.modulwerft.com/contacts</a>
@@ -185,7 +219,9 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
     <tr>
       <td>Netresearch</td>
       <td>
-        <code>Netresearch</code>
+        <div>
+          <code>Netresearch</code>
+        </div>
       </td>
       <td>
         <a href="https://www.netresearch.de/en/contact/">https://www.netresearch.de/en/contact/</a>
@@ -195,7 +231,9 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
     <tr>
       <td>OneStepCheckout</td>
       <td>
-        <code>Onestepcheckout</code>
+        <div>
+          <code>Onestepcheckout</code>
+        </div>
       </td>
       <td>
         <a href="https://www.onestepcheckout.com/contacts">https://www.onestepcheckout.com/contacts</a>
@@ -205,7 +243,9 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
     <tr>
       <td>ParadoxLabs</td>
       <td>
-        <code>ParadoxLabs</code>
+        <div>
+          <code>ParadoxLabs</code>
+        </div>
       </td>
       <td>
         <a href="https://www.paradoxlabs.com/contact/">https://www.paradoxlabs.com/contact/</a>
@@ -215,7 +255,9 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
     <tr>
       <td>Plugin Company</td>
       <td>
-        <code>PluginCompany</code>
+        <div>
+          <code>PluginCompany</code>
+        </div>
       </td>
       <td>
         <a href="https://plugin.company/contact">https://plugin.company/contact</a>
@@ -225,7 +267,9 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
     <tr>
       <td>Pronko Consulting</td>
       <td>
-        <code>Pronko</code>
+        <div>
+          <code>Pronko</code>
+        </div>
       </td>
       <td>
         <a href="https://www.pronkoconsulting.com/contact">https://www.pronkoconsulting.com/contact</a>
@@ -235,7 +279,9 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
     <tr>
       <td>Rocket Web</td>
       <td>
-        <code>RocketWeb</code>
+        <div>
+          <code>RocketWeb</code>
+        </div>
       </td>
       <td>
         <a href="https://rocketweb.com/contact">https://rocketweb.com/contact</a>
@@ -245,8 +291,12 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
     <tr>
       <td>Templates Master</td>
       <td>
-        <code>TM</code>
-        <code>Swissup</code>
+        <div>
+          <code>TM</code>
+        </div>
+        <div>
+          <code>Swissup</code>
+        </div>
       </td>
       <td>
         <a href="https://templates-master.com/contacts">https://templates-master.com/contacts</a>
@@ -256,7 +306,9 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
     <tr>
       <td>WebShopApps</td>
       <td>
-        <code>WebShopApps</code>
+        <div>
+          <code>WebShopApps</code>
+        </div>
       </td>
       <td>
         <a href="https://webshopapps.com/contacts">https://webshopapps.com/contacts</a>
@@ -266,7 +318,9 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
     <tr>
       <td>Xtento</td>
       <td>
-        <code>Xtento</code>
+        <div>
+          <code>Xtento</code>
+        </div>
       </td>
       <td>
         <a href="https://www.xtento.com/contacts">https://www.xtento.com/contacts</a>
@@ -276,7 +330,9 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
     <tr>
       <td>Yireo</td>
       <td>
-        <code>Yireo</code>
+        <div>
+          <code>Yireo</code>
+        </div>
       </td>
       <td>
         <a href="https://www.yireo.com/contact">https://www.yireo.com/contact</a>
