@@ -15,7 +15,11 @@
             console.log(response);
         },
         success: function (response) {
-            console.log(response);
+            d3.select('table')
+                .selectAll('tr')
+                .data(response)
+                .enter()
+                .append('tr');
         }
     };
 
