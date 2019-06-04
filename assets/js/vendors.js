@@ -75,8 +75,8 @@
     /** @property {Object} settings */
     Vendors.settings = {
         url: JSON_ENDPOINT,
-        error: this.onError.bind(this),
-        success: this.onSuccess.bind(this)
+        error: Vendors.onError.bind(Vendors),
+        success: Vendors.onSuccess.bind(Vendors)
     };
 
     /**
