@@ -52,7 +52,7 @@
             .enter()
             .append('th')
             .text(function (d) {
-                return d[0];
+                return d.toUpperCase();
             });
 
         /** @var {Array} rows */
@@ -69,7 +69,7 @@
                 });
             })
             .enter()
-            .append()
+            .append('td')
             .text(function (d) {
                 return d[1];
             });
