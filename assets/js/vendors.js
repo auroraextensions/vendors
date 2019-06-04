@@ -41,25 +41,38 @@
      */
     Vendors.onSuccess = function (response) {
         /** @var {Array} data */
-        var data = JSON.parse(response);
-
-        /** @var {Object} entry */
-        var entry = data[0];
-
         /** @var {Array} keys */
-        var keys = this.getKeys(entry);
+        var rows,
+            data = JSON.parse(response),
+            keys = this.getKeys(data[0]);
 
         d3.select('thead')
             .selectAll('th')
             .data(keys)
             .enter()
-            .append('th');
+            .append('th')
+            .text(function (d) {
+                return d[0];
+            });
 
-        d3.select('tbody')
+        /** @var {Array} rows */
+        rows = d3.select('tbody')
             .selectAll('tr')
             .data(data)
             .enter()
             .append('tr');
+
+        rows.selectAll('td')
+            .data(function (d) {
+                return Object.keys(d).map(function (key) {
+                    return [+key, d[key]];
+                });
+            })
+            .enter()
+            .append()
+            .text(function (d) {
+                return d[1];
+            });
     };
 
     /**
