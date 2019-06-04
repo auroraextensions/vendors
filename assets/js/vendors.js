@@ -33,34 +33,50 @@
     /** @var {Object} Vendors */
     var Vendors = Object.create(Utils);
 
+    /**
+     * On successful AJAX request.
+     *
+     * @param {String} response
+     * @return {void}
+     */
+    Vendors.onSuccess = function (response) {
+        /** @var {Array} data */
+        var data = JSON.parse(response);
+
+        /** @var {Object} entry */
+        var entry = data[0];
+
+        /** @var {Array} keys */
+        var keys = this.getKeys(entry);
+
+        d3.select('thead')
+            .selectAll('th')
+            .data(keys)
+            .enter()
+            .append('th');
+
+        d3.select('tbody')
+            .selectAll('tr')
+            .data(data)
+            .enter()
+            .append('tr');
+    };
+
+    /**
+     * On unsuccessful AJAX request.
+     *
+     * @param {String} response
+     * @return {void}
+     */
+    Vendors.onError = function (response) {
+        console.log(response);
+    };
+
     /** @property {Object} settings */
     Vendors.settings = {
         url: JSON_ENDPOINT,
-        error: function (response) {
-            console.log(response);
-        },
-        success: function (response) {
-            /** @var {Array} data */
-            var data = JSON.parse(response);
-
-            /** @var {Object} entry */
-            var entry = data[0];
-
-            /** @var {Array} keys */
-            var keys = this.getKeys(entry);
-
-            d3.select('thead')
-                .selectAll('th')
-                .data(keys)
-                .enter()
-                .append('th');
-
-            d3.select('tbody')
-                .selectAll('tr')
-                .data(data)
-                .enter()
-                .append('tr');
-        }
+        error: this.onError.bind(this),
+        success: this.onSuccess.bind(this)
     };
 
     /**
