@@ -2,8 +2,8 @@
  * vendors.js
  */
 (function ($, d3) {
-    /** @var {String} JSON_ENDPOINT */
-    var JSON_ENDPOINT = 'https://raw.githubusercontent.com/auroraextensions/vendors/master/data/vendors.json';
+    /** @var {String} JSON_PATH */
+    var JSON_PATH = '/data/vendors.json';
 
     /** @var {Object} Utils */
     var Utils = {};
@@ -32,6 +32,15 @@
 
     /** @var {Object} Vendors */
     var Vendors = Object.create(Utils);
+
+    /**
+     * Get JSON data endpoint.
+     *
+     * @return {String}
+     */
+    Vendors.getJsonEndpoint = function () {
+        return document.location.origin + JSON_PATH;
+    };
 
     /**
      * On successful AJAX request.
@@ -85,13 +94,6 @@
         console.log(response);
     };
 
-    /** @property {Object} settings */
-    Vendors.settings = {
-        url: JSON_ENDPOINT,
-        error: Vendors.onError.bind(Vendors),
-        success: Vendors.onSuccess.bind(Vendors)
-    };
-
     /**
      * Initialize vendors table.
      *
@@ -106,6 +108,13 @@
      */
     Vendors.onLoad = function () {
         this.initialize();
+    };
+
+    /** @property {Object} settings */
+    Vendors.settings = {
+        url: Vendors.getJsonEndpoint(),
+        error: Vendors.onError.bind(Vendors),
+        success: Vendors.onSuccess.bind(Vendors)
     };
 
     $(document).ready(Vendors.onLoad.bind(Vendors));
