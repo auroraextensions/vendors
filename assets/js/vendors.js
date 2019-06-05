@@ -43,6 +43,34 @@
     };
 
     /**
+     * Get value via key lookup from data array.
+     *
+     * @param {String} field
+     * @param {Array} data
+     * @return {Array}
+     */
+    Vendors.getFieldValues = function (field, data) {
+        /** @var {Object} entry */
+        /** @var {Number} index */
+        /** @var {Number} length */
+        /** @var {Array} values */
+        var entry,
+            index,
+            length = data.length,
+            values = [];
+
+        for (index = 0; index < length; index += 1) {
+            entry = data[index];
+
+            if (entry.hasOwnProperty(field)) {
+                values.push(entry[field]);
+            }
+        }
+
+        return values;
+    };
+
+    /**
      * On successful AJAX request.
      *
      * @param {String} response
@@ -67,21 +95,16 @@
         /** @var {Array} rows */
         rows = d3.select('tbody')
             .selectAll('tr')
-            .data(data)
+            .data(this.getFieldValues('vendor', data))
             .enter()
             .append('tr');
 
         rows.selectAll('td')
             .data(function (d) {
-                return Object.keys(d).map(function (key) {
-                    return [+key, d[key]];
-                });
+                return d;
             })
             .enter()
-            .append('td')
-            .text(function (d) {
-                return d[1];
-            });
+            .append('td');
     };
 
     /**
