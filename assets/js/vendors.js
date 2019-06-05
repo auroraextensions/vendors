@@ -52,7 +52,7 @@
         /** @var {Array} data */
         /** @var {Array} keys */
         var rows,
-            data = JSON.parse(response),
+            data = response ? response : [],
             keys = this.getKeys(data[0]);
 
         d3.select('thead')
