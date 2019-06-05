@@ -2,6 +2,8 @@
  * vendors.js
  */
 (function ($, d3) {
+    'use strict';
+
     /** @var {String} JSON_PATH */
     var JSON_PATH = '/data/vendors.json';
 
@@ -43,7 +45,34 @@
     };
 
     /**
-     * Get value via key lookup from data array.
+     * Get data object by matching key/value.
+     *
+     * @param {String} field
+     * @param {mixed} value
+     * @param {Array} data
+     * @return {Object|null}
+     */
+    Vendors.getEntryByFieldValue = function (field, value, data) {
+        /** @var {Object} entry */
+        /** @var {Number} index */
+        /** @var {Number} length */
+        var entry,
+            index,
+            length = data.length;
+
+        for (index = 0; index < length; index += 1) {
+            entry = data[index];
+
+            if (entry[field] && entry[field] === value) {
+                return entry;
+            }
+        }
+
+        return null;
+    };
+
+    /**
+     * Get values from data object with corresponding key.
      *
      * @param {String} field
      * @param {Array} data
@@ -77,11 +106,15 @@
      * @return {void}
      */
     Vendors.onSuccess = function (response) {
+        /** @var {Number} index */
         /** @var {Array} data */
         /** @var {Array} keys */
+        /** @var {Number} length */
         var rows,
+            index,
             data = response ? response : [],
-            keys = this.getKeys(data[0]);
+            keys = this.getKeys(data[0]),
+            length = data.length;
 
         d3.select('thead')
             .selectAll('th')
@@ -92,19 +125,30 @@
                 return d.toUpperCase();
             });
 
+
         /** @var {Array} rows */
         rows = d3.select('tbody')
             .selectAll('tr')
-            .data(this.getFieldValues('vendor', data))
+            .data(data)
             .enter()
             .append('tr');
 
         rows.selectAll('td')
             .data(function (d) {
-                return d;
+                var i, k, t = [];
+
+                for (i = 0; i < keys.length; i += 1) {
+                    k = keys[i];
+                    t.push(d[k]);
+                }
+
+                return t;
             })
             .enter()
-            .append('td');
+            .append('td')
+            .text(function (d) {
+                return d;
+            });
     };
 
     /**
