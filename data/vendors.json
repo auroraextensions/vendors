@@ -1,11 +1,260 @@
 [
   {
+    "vendor": "Aheadworks",
+    "namespaces": [
+      "Aheadworks"
+    ],
+    "support": "https://ecommerce.aheadworks.com/contacts",
+    "extdn": true
+  },
+  {
+    "vendor": "Amasty",
+    "namespaces": [
+      "Amasty"
+    ],
+    "support": "https://amasty.com/contacts",
+    "extdn": false
+  },
+  {
+    "vendor": "Atwix",
+    "namespaces": [
+      "Atwix"
+    ],
+    "support": "https://www.atwix.com/contact/",
+    "extdn": false
+  },
+  {
     "vendor": "Aurora Extensions",
     "namespaces": [
       "AuroraExtensions",
       "NickolasBurr"
     ],
     "support": "https://auroraextensions.com/pages/contact-us",
+    "extdn": true
+  },
+  {
+    "vendor": "CedCommerce",
+    "namespaces": [
+      "CedCommerce"
+    ],
+    "support": "https://support.cedcommerce.com",
+    "extdn": false
+  },
+  {
+    "vendor": "Cobby",
+    "namespaces": [
+      "Cobby"
+    ],
+    "support": "https://help.cobby.io",
+    "extdn": true
+  },
+  {
+    "vendor": "CustomGento",
+    "namespaces": [
+      "CustomGento"
+    ],
+    "support": "info@customgento.com",
+    "extdn": true
+  },
+  {
+    "vendor": "Ebizmarts",
+    "namespaces": [
+      "Ebizmarts"
+    ],
+    "support": "https://ebizmarts.com/contact-us",
+    "extdn": true
+  },
+  {
+    "vendor": "Extendware",
+    "namespaces": [
+      "Extendware"
+    ],
+    "support": "https://www.extendware.com/contacts",
+    "extdn": false
+  },
+  {
+    "vendor": "Firebear Studio",
+    "namespaces": [
+      "Firebear"
+    ],
+    "support": "https://firebearstudio.com/contacts",
+    "extdn": true
+  },
+  {
+    "vendor": "FME Extensions",
+    "namespaces": [
+      "FMEExtensions"
+    ],
+    "support": "https://www.fmeextensions.com/contacts",
+    "extdn": false
+  },
+  {
+    "vendor": "Fooman",
+    "namespaces": [
+      "Fooman"
+    ],
+    "support": "https://store.fooman.co.nz/contacts",
+    "extdn": true
+  },
+  {
+    "vendor": "integer_net",
+    "namespaces": [
+      "Integernet"
+    ],
+    "support": "https://www.integer-net.de/kontakt",
+    "extdn": true
+  },
+  {
+    "vendor": "MageModule",
+    "namespaces": [
+      "MageModule"
+    ],
+    "support": "https://www.magemodule.com/contact",
+    "extdn": true
+  },
+  {
+    "vendor": "Magenest",
+    "namespaces": [
+      "Magenest"
+    ],
+    "support": "https://magenest.com/en/contact-us/",
+    "extdn": false
+  },
+  {
+    "vendor": "Mageside",
+    "namespaces": [
+      "Mageside"
+    ],
+    "support": "https://mageside.com/contacts",
+    "extdn": false
+  },
+  {
+    "vendor": "Magewares",
+    "namespaces": [
+      "Magewares"
+    ],
+    "support": "support@magewares.com",
+    "extdn": false
+  },
+  {
+    "vendor": "MageWorx",
+    "namespaces": [
+      "MageWorx"
+    ],
+    "support": "https://www.mageworx.com/support/",
+    "extdn": false
+  },
+  {
+    "vendor": "Mirasvit",
+    "namespaces": [
+      "Mirasvit"
+    ],
+    "support": "https://mirasvit.com/contact",
+    "extdn": false
+  },
+  {
+    "vendor": "Modulwerft",
+    "namespaces": [
+      "Modulwerft"
+    ],
+    "support": "https://www.modulwerft.com/contacts",
+    "extdn": true
+  },
+  {
+    "vendor": "Netresearch",
+    "namespaces": [
+      "Netresearch"
+    ],
+    "support": "https://www.netresearch.de/en/contact/",
+    "extdn": true
+  },
+  {
+    "vendor": "OneStepCheckout",
+    "namespaces": [
+      "Onestepcheckout"
+    ],
+    "support": "https://www.onestepcheckout.com/contacts",
+    "extdn": true
+  },
+  {
+    "vendor": "ParadoxLabs",
+    "namespaces": [
+      "ParadoxLabs"
+    ],
+    "support": "https://www.paradoxlabs.com/contact/",
+    "extdn": true
+  },
+  {
+    "vendor": "Plugin Company",
+    "namespaces": [
+      "PluginCompany"
+    ],
+    "support": "https://plugin.company/contact",
+    "extdn": false
+  },
+  {
+    "vendor": "Pronko Consulting",
+    "namespaces": [
+      "Pronko"
+    ],
+    "support": "https://www.pronkoconsulting.com/contact",
+    "extdn": true
+  },
+  {
+    "vendor": "Rocket Web",
+    "namespaces": [
+      "RocketWeb"
+    ],
+    "support": "https://rocketweb.com/contact",
+    "extdn": true
+  },
+  {
+    "vendor": "Templates Master",
+    "namespaces": [
+      "TM",
+      "Swissup"
+    ],
+    "support": "https://templates-master.com/contacts",
+    "extdn": false
+  },
+  {
+    "vendor": "WebShopApps",
+    "namespaces": [
+      "WebShopApps"
+    ],
+    "support": "https://webshopapps.com/contacts",
+    "extdn": true
+  },
+  {
+    "vendor": "WeltPixel",
+    "namespaces": [
+      "WeltPixel"
+    ],
+    "support": "https://support.weltpixel.com",
+    "extdn": false
+  },
+  {
+    "vendor": "Wyomind",
+    "namespaces": [
+      "Wyomind"
+    ],
+    "support": "https://www.wyomind.com/contact.html",
+    "extdn": false
+  },
+  {
+    "vendor": "Xtento",
+    "namespaces": [
+      "Xtento"
+    ],
+    "support": "https://www.xtento.com/contacts",
+    "extdn": true
+  },
+  {
+    "vendor": "Yireo",
+    "namespaces": [
+      "Yireo"
+    ],
+    "support": "https://www.yireo.com/contact",
     "extdn": true
   }
 ]
