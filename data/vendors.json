@@ -105,6 +105,14 @@
     "extdn": true
   },
   {
+    "vendor": "Mageants",
+    "namespaces": [
+      "Mageants"
+    ],
+    "support": "https://www.mageants.com/contact-us.html",
+    "extdn": false
+  },
+  {
     "vendor": "MageModule",
     "namespaces": [
       "MageModule"
@@ -118,6 +126,14 @@
       "Magenest"
     ],
     "support": "https://magenest.com/en/contact-us/",
+    "extdn": false
+  },
+  {
+    "vendor": "Mageplaza",
+    "namespaces": [
+      "Mageplaza"
+    ],
+    "support": "https://www.mageplaza.com/contact.html",
     "extdn": false
   },
   {
@@ -190,6 +206,14 @@
       "PluginCompany"
     ],
     "support": "https://plugin.company/contact",
+    "extdn": false
+  },
+  {
+    "vendor": "Plumrocket",
+    "namespaces": [
+      "Plumrocket"
+    ],
+    "support": "https://store.plumrocket.com/contacts",
     "extdn": false
   },
   {

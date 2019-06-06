@@ -181,6 +181,18 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       <td>&#10004;</td>
     </tr>
     <tr>
+      <td>Mageants</td>
+      <td>
+        <div>
+          <code>Mageants</code>
+        </div>
+      </td>
+      <td>
+        <a href="https://www.mageants.com/contact-us.html">https://www.mageants.com/contact-us.html</a>
+      </td>
+      <td>&ndash;</td>
+    </tr>
+    <tr>
       <td>MageModule</td>
       <td>
         <div>
@@ -201,6 +213,18 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       </td>
       <td>
         <a href="https://magenest.com/en/contact-us/">https://magenest.com/en/contact-us/</a>
+      </td>
+      <td>&ndash;</td>
+    </tr>
+    <tr>
+      <td>Mageplaza</td>
+      <td>
+        <div>
+          <code>Mageplaza</code>
+        </div>
+      </td>
+      <td>
+        <a href="https://www.mageplaza.com/contact.html">https://www.mageplaza.com/contact.html</a>
       </td>
       <td>&ndash;</td>
     </tr>
@@ -309,6 +333,18 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       </td>
       <td>
         <a href="https://plugin.company/contact">https://plugin.company/contact</a>
+      </td>
+      <td>&ndash;</td>
+    </tr>
+    <tr>
+      <td>Plumrocket</td>
+      <td>
+        <div>
+          <code>Plumrocket</code>
+        </div>
+      </td>
+      <td>
+        <a href="https://store.plumrocket.com/contacts">https://store.plumrocket.com/contacts</a>
       </td>
       <td>&ndash;</td>
     </tr>
