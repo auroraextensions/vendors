@@ -73,6 +73,33 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       <td>&#10004;</td>
     </tr>
     <tr>
+      <td>Boost My Shop</td>
+      <td>
+        <div>
+          <code>BoostMyShop</code>
+        </div>
+        <div>
+          <code>MDN</code>
+        </div>
+      </td>
+      <td>
+        <a href="https://www.boostmyshop.com/contact">https://www.boostmyshop.com/contact</a>
+      </td>
+      <td>&ndash;</td>
+    </tr>
+    <tr>
+      <td>BssCommerce</td>
+      <td>
+        <div>
+          <code>Bss</code>
+        </div>
+      </td>
+      <td>
+        <a href="https://bsscommerce.com/contact">https://bsscommerce.com/contact</a>
+      </td>
+      <td>&ndash;</td>
+    </tr>
+    <tr>
       <td>CedCommerce</td>
       <td>
         <div>
@@ -289,6 +316,18 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       <td>&#10004;</td>
     </tr>
     <tr>
+      <td>Neklo</td>
+      <td>
+        <div>
+          <code>Neklo</code>
+        </div>
+      </td>
+      <td>
+        <a href="https://store.neklo.com/contacts"></a>
+      </td>
+      <td>&ndash;</td>
+    </tr>
+    <tr>
       <td>Netresearch</td>
       <td>
         <div>
@@ -371,6 +410,18 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
         <a href="https://rocketweb.com/contact">https://rocketweb.com/contact</a>
       </td>
       <td>&#10004;</td>
+    </tr>
+    <tr>
+      <td>SafeMage</td>
+      <td>
+        <div>
+          <code>SafeMage</code>
+        </div>
+      </td>
+      <td>
+        <a href="https://www.safemage.com/contacts">https://www.safemage.com/contacts</a>
+      </td>
+      <td>&ndash;</td>
     </tr>
     <tr>
       <td>Templates Master</td>
