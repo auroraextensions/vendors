@@ -33,6 +33,23 @@
     "extdn": true
   },
   {
+    "vendor": "Boost My Shop",
+    "namespaces": [
+      "BoostMyShop",
+      "MDN"
+    ],
+    "support": "https://www.boostmyshop.com/contact",
+    "extdn": false
+  },
+  {
+    "vendor": "BssCommerce",
+    "namespaces": [
+      "Bss"
+    ],
+    "support": "https://bsscommerce.com/contact",
+    "extdn": false
+  },
+  {
     "vendor": "CedCommerce",
     "namespaces": [
       "CedCommerce"
@@ -177,6 +194,14 @@
     "extdn": true
   },
   {
+    "vendor": "Neklo",
+    "namespaces": [
+      "Neklo"
+    ],
+    "support": "https://store.neklo.com/contacts",
+    "extdn": false
+  },
+  {
     "vendor": "Netresearch",
     "namespaces": [
       "Netresearch"
@@ -231,6 +256,14 @@
     ],
     "support": "https://rocketweb.com/contact",
     "extdn": true
+  },
+  {
+    "vendor": "SafeMage",
+    "namespaces": [
+      "SafeMage"
+    ],
+    "support": "https://www.safemage.com/contacts",
+    "extdn": false
   },
   {
     "vendor": "Templates Master",
