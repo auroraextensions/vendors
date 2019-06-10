@@ -6,6 +6,14 @@ body {
   padding: 1rem;
 }
 
+section.legend {
+  margin: 1em 0;
+}
+
+section.legend > ol {
+  padding-inline-start: 20px;
+}
+
 table.ftw {
   width: 100%;
 }
