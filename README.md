@@ -34,6 +34,18 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       <td>&#10004;</td>
     </tr>
     <tr>
+      <td>Aitoc</td>
+      <td>
+        <div>
+          <code>Aitoc</code>
+        </div>
+      </td>
+      <td>
+        <a href="https://support.aitoc.com/index.php?/Knowledgebase/List">https://support.aitoc.com/index.php?/Knowledgebase/List</a>
+      </td>
+      <td>&ndash;</td>
+    </tr>
+    <tr>
       <td>Amasty</td>
       <td>
         <div>
@@ -136,6 +148,18 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       <td>&#10004;</td>
     </tr>
     <tr>
+      <td>DCKAP</td>
+      <td>
+        <div>
+          <code>DCKAP</code>
+        </div>
+      </td>
+      <td>
+        <a href="https://www.dckap.com/contact-us.htm">https://www.dckap.com/contact-us.htm</a>
+      </td>
+      <td>&ndash;</td>
+    </tr>
+    <tr>
       <td>Ebizmarts</td>
       <td>
         <div>
@@ -218,6 +242,18 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
         <a href="https://www.integer-net.de/kontakt">https://www.integer-net.de/kontakt</a>
       </td>
       <td>&#10004;</td>
+    </tr>
+    <tr>
+      <td>IWD Agency</td>
+      <td>
+        <div>
+          <code>IWD</code>
+        </div>
+      </td>
+      <td>
+        <a href="https://www.iwdagency.com/contact">https://www.iwdagency.com/contact</a>
+      </td>
+      <td>&ndash;</td>
     </tr>
     <tr>
       <td>Mageants</td>
