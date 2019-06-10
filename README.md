@@ -148,6 +148,18 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       <td>&#10004;</td>
     </tr>
     <tr>
+      <td>Emipro Technologies</td>
+      <td>
+        <div>
+          <code>Emipro</code>
+        </div>
+      </td>
+      <td>
+        <a href="info@emiprotechnologies.com">info@emiprotechnologies.com</a>
+      </td>
+      <td>&ndash;</td>
+    </tr>
+    <tr>
       <td>Extendware</td>
       <td>
         <div>
@@ -447,6 +459,18 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       </td>
       <td>
         <a href="https://templates-master.com/contacts">https://templates-master.com/contacts</a>
+      </td>
+      <td>&ndash;</td>
+    </tr>
+    <tr>
+      <td>Webkul</td>
+      <td>
+        <div>
+          <code>Webkul</code>
+        </div>
+      </td>
+      <td>
+        <a href="https://webkul.com/contacts/">https://webkul.com/contacts/</a>
       </td>
       <td>&ndash;</td>
     </tr>
