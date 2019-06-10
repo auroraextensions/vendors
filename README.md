@@ -424,6 +424,18 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       <td>&ndash;</td>
     </tr>
     <tr>
+      <td>Scommerce Mage</td>
+      <td>
+        <div>
+          <code>ScommerceMage</code>
+        </div>
+      </td>
+      <td>
+        <a href="https://www.scommerce-mage.com/contact-us.html">https://www.scommerce-mage.com/contact-us.html</a>
+      </td>
+      <td>&ndash;</td>
+    </tr>
+    <tr>
       <td>Templates Master</td>
       <td>
         <div>

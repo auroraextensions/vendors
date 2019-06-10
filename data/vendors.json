@@ -266,6 +266,14 @@
     "extdn": false
   },
   {
+    "vendor": "ScommerceMage",
+    "namespaces": [
+      "ScommerceMage"
+    ],
+    "support": "https://www.scommerce-mage.com/contact-us.html",
+    "extdn": false
+  },
+  {
     "vendor": "Templates Master",
     "namespaces": [
       "TM",
