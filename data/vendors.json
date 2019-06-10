@@ -170,6 +170,14 @@
     "extdn": false
   },
   {
+    "vendor": "MageVision",
+    "namespaces": [
+      "MageVision"
+    ],
+    "support": "https://www.magevision.com/contact/",
+    "extdn": false
+  },
+  {
     "vendor": "Magewares",
     "namespaces": [
       "Magewares"
@@ -183,6 +191,14 @@
       "MageWorx"
     ],
     "support": "https://www.mageworx.com/support/",
+    "extdn": false
+  },
+  {
+    "vendor": "Magmodules",
+    "namespaces": [
+      "Magmodules"
+    ],
+    "support": "https://www.magmodules.eu/contact-us.html",
     "extdn": false
   },
   {
