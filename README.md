@@ -280,6 +280,18 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       <td>&ndash;</td>
     </tr>
     <tr>
+      <td>MageVision</td>
+      <td>
+        <div>
+          <code>MageVision</code>
+        </div>
+      </td>
+      <td>
+        <a href="https://www.magevision.com/contact/">https://www.magevision.com/contact/</a>
+      </td>
+      <td>&ndash;</td>
+    </tr>
+    <tr>
       <td>Magewares</td>
       <td>
         <div>
@@ -300,6 +312,18 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       </td>
       <td>
         <a href="https://www.mageworx.com/support/">https://www.mageworx.com/support/</a>
+      </td>
+      <td>&ndash;</td>
+    </tr>
+    <tr>
+      <td>Magmodules</td>
+      <td>
+        <div>
+          <code>Magmodules</code>
+        </div>
+      </td>
+      <td>
+        <a href="https://www.magmodules.eu/contact-us.html">https://www.magmodules.eu/contact-us.html</a>
       </td>
       <td>&ndash;</td>
     </tr>
