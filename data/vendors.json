@@ -82,6 +82,14 @@
     "extdn": true
   },
   {
+    "vendor": "Emipro Technologies",
+    "namespaces": [
+      "Emipro"
+    ],
+    "support": "info@emiprotechnologies.com",
+    "extdn": false
+  },
+  {
     "vendor": "Extendware",
     "namespaces": [
       "Extendware"
@@ -280,6 +288,14 @@
       "Swissup"
     ],
     "support": "https://templates-master.com/contacts",
+    "extdn": false
+  },
+  {
+    "vendor": "Webkul",
+    "namespaces": [
+      "Webkul"
+    ],
+    "support": "https://webkul.com/contacts/",
     "extdn": false
   },
   {
