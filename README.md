@@ -232,6 +232,18 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       <td>&ndash;</td>
     </tr>
     <tr>
+      <td>MageBees</td>
+      <td>
+        <div>
+          <code>Magebees</code>
+        </div>
+      </td>
+      <td>
+        <a href="https://www.magebees.com/contact-us">https://www.magebees.com/contact-us</a>
+      </td>
+      <td>&ndash;</td>
+    </tr>
+    <tr>
       <td>MageModule</td>
       <td>
         <div>
@@ -434,6 +446,18 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
         <a href="https://www.pronkoconsulting.com/contact">https://www.pronkoconsulting.com/contact</a>
       </td>
       <td>&#10004;</td>
+    </tr>
+    <tr>
+      <td>Rave Infosys</td>
+      <td>
+        <div>
+          <code>Raveinfosys</code>
+        </div>
+      </td>
+      <td>
+        <a href="https://www.raveinfosys.com/contact-us/">https://www.raveinfosys.com/contact-us/</a>
+      </td>
+      <td>&ndash;</td>
     </tr>
     <tr>
       <td>Rocket Web</td>

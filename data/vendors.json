@@ -138,6 +138,14 @@
     "extdn": false
   },
   {
+    "vendor": "MageBees",
+    "namespaces": [
+      "Magebees"
+    ],
+    "support": "https://www.magebees.com/contact-us",
+    "extdn": false
+  },
+  {
     "vendor": "MageModule",
     "namespaces": [
       "MageModule"
@@ -272,6 +280,14 @@
     ],
     "support": "https://www.pronkoconsulting.com/contact",
     "extdn": true
+  },
+  {
+    "vendor": "Rave Infosys",
+    "namespaces": [
+      "Raveinfosys"
+    ],
+    "support": "https://www.raveinfosys.com/contact-us/",
+    "extdn": false
   },
   {
     "vendor": "Rocket Web",
