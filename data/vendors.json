@@ -8,6 +8,14 @@
     "extdn": true
   },
   {
+    "vendor": "Aitoc",
+    "namespaces": [
+      "Aitoc"
+    ],
+    "support": "https://support.aitoc.com/index.php?/Knowledgebase/List",
+    "extdn": false
+  },
+  {
     "vendor": "Amasty",
     "namespaces": [
       "Amasty"
@@ -74,6 +82,14 @@
     "extdn": true
   },
   {
+    "vendor": "DCKAP",
+    "namespaces": [
+      "DCKAP"
+    ],
+    "support": "https://www.dckap.com/contact-us.htm",
+    "extdn": false
+  },
+  {
     "vendor": "Ebizmarts",
     "namespaces": [
       "Ebizmarts"
@@ -128,6 +144,14 @@
     ],
     "support": "https://www.integer-net.de/kontakt",
     "extdn": true
+  },
+  {
+    "vendor": "IWD Agency",
+    "namespaces": [
+      "IWD"
+    ],
+    "support": "https://www.iwdagency.com/contact",
+    "extdn": false
   },
   {
     "vendor": "Mageants",
