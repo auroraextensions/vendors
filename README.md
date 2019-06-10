@@ -323,7 +323,7 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
         </div>
       </td>
       <td>
-        <a href="https://store.neklo.com/contacts"></a>
+        <a href="https://store.neklo.com/contacts">https://store.neklo.com/contacts</a>
       </td>
       <td>&ndash;</td>
     </tr>
