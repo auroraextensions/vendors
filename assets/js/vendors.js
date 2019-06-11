@@ -45,30 +45,67 @@
      * @param {HTMLElement} element
      * @return {this}
      */
-    Vendors.insertParsedNamespaces = function (data, element) {
+    Vendors.insertNamespaces = function (data, element) {
         var code,
             index,
-            ns,
             length = data.length;
 
+        /* Truncate root node text content. */
         element.textContent = '';
 
         for (index = 0; index < length; index += 1) {
             /** @var {HTMLCodeElement} code */
             code = document.createElement('code');
 
-            /** @var {String} ns */
-            ns = data[index];
-
             element.appendChild(code);
-            $(code).text(ns);
+            $(code).text(data[index]);
         }
 
         return this;
     };
 
-    Vendors.insertSupportLink = function (data, element) {};
-    Vendors.insertExtdnIcon = function (data, element) {};
+    /**
+     * Insert <a> support link.
+     *
+     * @param {Object} data
+     * @param {HTMLElement} element
+     * @return {this}
+     */
+    Vendors.insertSupportLink = function (data, element) {
+        var link,
+            isEmail;
+
+        /** @var {HTMLAnchorElement} link */
+        link = document.createElement('a');
+
+        /** @var {Boolean} isEmail */
+        isEmail = (
+            data.split('@').length > 1 && data.split('://').length < 2
+        );
+
+        /* Truncate root node text content. */
+        element.textContent = '';
+        element.appendChild(link);
+
+        $(link).attr('href', isEmail ? 'mailto:' + data : data)
+            .attr('target', '_blank')
+            .text(data);
+
+        return this;
+    };
+
+    /**
+     * Insert ExtDN member status icon.
+     *
+     * @param {Object} data
+     * @param {HTMLElement} element
+     * @return {this}
+     */
+    Vendors.insertMemberIcon = function (data, element) {
+        element.innerHTML = !!data ? '&#10004;' : '&ndash;';
+
+        return this;
+    };
 
     /**
      * Parse field data.
@@ -76,7 +113,7 @@
      * @param {Object} data
      * @return {mixed}
      */
-    Vendors.parseFieldData = function (data) {
+    Vendors.parseField = function (data) {
         var index,
             key,
             keys = this.getKeys(data),
@@ -96,9 +133,9 @@
 
     /** @property {Object} FieldHandlers ~ Field-specific parser functions */
     Vendors.FieldHandlers = {
-        namespaces: Vendors.insertParsedNamespaces,
+        namespaces: Vendors.insertNamespaces,
         support: Vendors.insertSupportLink,
-        extdn: Vendors.insertExtdnIcon
+        extdn: Vendors.insertMemberIcon
     };
 
     /**
@@ -160,11 +197,8 @@
                 return datum[Vendors.PRIMARY_KEY].split(' ').join('_').toLowerCase();
             });
 
-        /** @var {Function} func */
-        func = this.parseFieldData.bind(this);
-
         rows.selectAll('td')
-            .data(func)
+            .data(this.parseField.bind(this))
             .enter()
             .append('td')
             .text(function (datum) {
