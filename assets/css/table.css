@@ -16,11 +16,6 @@ table tr {
   padding: 5px;
 }
 
-table th, table td {
-  padding: 10px;
-  text-align: center;
-}
-
 table th {
   font-size: 14px;
   letter-spacing: 1px;
