@@ -21,7 +21,7 @@ When contributing to this repository, please ensure the following:
 New entries should be included in the following files:
 
 - [README.md](https://github.com/auroraextensions/vendors/blob/master/README.md)
-- [vendors.json](https://github.com/auroraextensions/vendors/blob/master/data/vendors.json)
+- [vendors.json](https://github.com/auroraextensions/vendors/blob/master/data/vendors.json) (This will also include you on [https://vendors.auroraextensions.com](https://vendors.auroraextensions.com))
 
 ## Formatting
 
