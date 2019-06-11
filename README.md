@@ -375,6 +375,18 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       </td>
       <td>&ndash;</td>
     </tr>
+     <tr>
+      <td>Meetanshi</td>
+      <td>
+        <div>
+          <code>Meetanshi</code>
+        </div>
+      </td>
+      <td>
+        <a href="https://meetanshi.com/contacts/">https://meetanshi.com/contacts/</a>
+      </td>
+      <td>&ndash;</td>
+    </tr>
     <tr>
       <td>Mirasvit</td>
       <td>
