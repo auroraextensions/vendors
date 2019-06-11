@@ -35,6 +35,72 @@
     /** @var {Object} Vendors */
     var Vendors = Object.create(Utils);
 
+    /** @property {String} PRIMARY_KEY */
+    Vendors.PRIMARY_KEY = 'vendor';
+
+    /**
+     * Insert nested <code> elements.
+     *
+     * @param {Object} data
+     * @param {HTMLElement} element
+     * @return {this}
+     */
+    Vendors.insertParsedNamespaces = function (data, element) {
+        var code,
+            index,
+            ns,
+            length = data.length;
+
+        element.textContent = '';
+
+        for (index = 0; index < length; index += 1) {
+            /** @var {HTMLCodeElement} code */
+            code = document.createElement('code');
+
+            /** @var {String} ns */
+            ns = data[index];
+
+            element.appendChild(code);
+            $(code).text(ns);
+        }
+
+        return this;
+    };
+
+    Vendors.insertSupportLink = function (data, element) {};
+    Vendors.insertExtdnIcon = function (data, element) {};
+
+    /**
+     * Parse field data.
+     *
+     * @param {Object} data
+     * @return {mixed}
+     */
+    Vendors.parseFieldData = function (data) {
+        var index,
+            key,
+            keys = this.getKeys(data),
+            length = keys.length,
+            result = [];
+
+        for (index = 0; index < length; index += 1) {
+            /** @var {String} key */
+            key = keys[index];
+
+            /* Add data value to result. */
+            result.push(data[key]);
+        }
+
+        return result;
+    };
+
+    /** @property {Object} FieldHandlers ~ Field-specific parser functions */
+    Vendors.FieldHandlers = {
+        namespaces: Vendors.insertParsedNamespaces,
+        support: Vendors.insertSupportLink,
+        extdn: Vendors.insertExtdnIcon
+    };
+
     /**
      * Get JSON data endpoint.
      *
@@ -45,58 +111,16 @@
     };
 
     /**
-     * Get data object by matching key/value.
+     * Get reference to the function that is
+     * responsible for parsing the given field.
      *
-     * @param {String} field
-     * @param {mixed} value
-     * @param {Array} data
-     * @return {Object|null}
+     * @param {String} key
+     * @return {Function}
      */
-    Vendors.getEntryByFieldValue = function (field, value, data) {
-        /** @var {Object} entry */
-        /** @var {Number} index */
-        /** @var {Number} length */
-        var entry,
-            index,
-            length = data.length;
-
-        for (index = 0; index < length; index += 1) {
-            entry = data[index];
-
-            if (entry[field] && entry[field] === value) {
-                return entry;
-            }
-        }
-
-        return null;
-    };
-
-    /**
-     * Get values from data object with corresponding key.
-     *
-     * @param {String} field
-     * @param {Array} data
-     * @return {Array}
-     */
-    Vendors.getFieldValues = function (field, data) {
-        /** @var {Object} entry */
-        /** @var {Number} index */
-        /** @var {Number} length */
-        /** @var {Array} values */
-        var entry,
-            index,
-            length = data.length,
-            values = [];
-
-        for (index = 0; index < length; index += 1) {
-            entry = data[index];
-
-            if (entry.hasOwnProperty(field)) {
-                values.push(entry[field]);
-            }
-        }
-
-        return values;
+    Vendors.getFieldHandler = function (key) {
+        return this.FieldHandlers[key]
+            ? this.FieldHandlers[key]
+            : function () {};
     };
 
     /**
@@ -106,23 +130,23 @@
      * @return {void}
      */
     Vendors.onSuccess = function (response) {
-        /** @var {Number} index */
         /** @var {Array} data */
         /** @var {Array} keys */
         /** @var {Number} length */
         var rows,
-            index,
+            func,
             data = response ? response : [],
             keys = this.getKeys(data[0]),
-            length = data.length;
+            length = keys.length;
 
+        /* Set table header columns. */
         d3.select('thead')
             .selectAll('th')
             .data(keys)
             .enter()
             .append('th')
-            .text(function (d) {
-                return d.toUpperCase();
+            .text(function (datum) {
+                return datum.toUpperCase();
             });
 
 
@@ -131,23 +155,25 @@
             .selectAll('tr')
             .data(data)
             .enter()
-            .append('tr');
+            .append('tr')
+            .attr('class', function (datum) {
+                return datum[Vendors.PRIMARY_KEY].split(' ').join('_').toLowerCase();
+            });
+
+        /** @var {Function} func */
+        func = this.parseFieldData.bind(this);
 
         rows.selectAll('td')
-            .data(function (d) {
-                var i, k, t = [];
-
-                for (i = 0; i < keys.length; i += 1) {
-                    k = keys[i];
-                    t.push(d[k]);
-                }
-
-                return t;
-            })
+            .data(func)
             .enter()
             .append('td')
-            .text(function (d) {
-                return d;
+            .text(function (datum) {
+                return datum;
+            })
+            .each(function (datum, index, group) {
+                /** @var {Function} handler */
+                var handler = Vendors.getFieldHandler.call(Vendors, keys[index]);
+                handler(datum, group[index]);
             });
     };
 
