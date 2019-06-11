@@ -201,6 +201,9 @@
             .data(this.parseField.bind(this))
             .enter()
             .append('td')
+            .attr('data-label', function (datum, index) {
+                return keys[index];
+            })
             .text(function (datum) {
                 return datum;
             })
