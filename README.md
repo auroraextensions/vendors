@@ -316,6 +316,18 @@ contacts, and [ExtDN](https://extdn.org) affiliation.
       <td>&ndash;</td>
     </tr>
     <tr>
+      <td>MagePsycho</td>
+      <td>
+        <div>
+          <code>MagePsycho</code>
+        </div>
+      </td>
+      <td>
+        <a href="https://www.magepsycho.com/contact">https://www.magepsycho.com/contact</a>
+      </td>
+      <td>&ndash;</td>
+    </tr>
+    <tr>
       <td>Mageside</td>
       <td>
         <div>
