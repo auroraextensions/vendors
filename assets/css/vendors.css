@@ -25,3 +25,53 @@ section.legend > ol {
 table.ftw {
   width: 100%;
 }
+
+td[data-label="partner"] {
+  background-origin: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Solution Partners */
+td.business_solution_partner {
+  background-image: url("/assets/img/business_solution_partner.png");
+}
+
+td.enterprise_solution_partner {
+  background-image: url("/assets/img/enterprise_solution_partner.png");
+}
+
+td.global_elite_solution_partner {
+  background-image: url("/assets/img/global_elite_solution_partner.png");
+}
+
+td.professional_solution_partner {
+  background-image: url("/assets/img/professional_solution_partner.png");
+}
+
+/* Technology Partners */
+td.magento_technology_partner {
+  background-image: url("/assets/img/magento_technology_partner.png");
+}
+
+td.premier_technology_partner {
+  background-image: url("/assets/img/premier_technology_partner.png");
+}
+
+td.select_technology_partner {
+  background-image: url("/assets/img/select_technology_partner.png");
+}
+
+/* Extension Builders */
+td.premier_extension_builder {
+  background-image: url("/assets/img/premier_extension_builder.png");
+}
+
+td.select_extension_builder {
+  background-image: url("/assets/img/select_extension_builder.png");
+}
+
+/* Community Insider */
+td.community_insider {
+  background-image: url("/assets/img/community_insider.png");
+}
