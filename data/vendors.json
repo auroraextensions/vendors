@@ -194,6 +194,14 @@
     "extdn": false
   },
   {
+    "vendor": "MagePsycho",
+    "namespaces": [
+      "MagePsycho"
+    ],
+    "support": "https://www.magepsycho.com/contact",
+    "extdn": false
+  },
+  {
     "vendor": "Mageside",
     "namespaces": [
       "Mageside"
@@ -231,6 +239,14 @@
       "Magmodules"
     ],
     "support": "https://www.magmodules.eu/contact-us.html",
+    "extdn": false
+  },
+  {
+    "vendor": "Meetanshi",
+    "namespaces": [
+      "Meetanshi"
+    ],
+    "support": "https://meetanshi.com/contacts/",
     "extdn": false
   },
   {
