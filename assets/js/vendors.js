@@ -110,14 +110,20 @@
     };
 
     /**
-     * Add class to element.
+     * Add class(es) to element.
      *
-     * @param {String} data
+     * @param {Array} data
      * @param {HTMLElement} element
      * @return {this}
      */
     Vendors.addClass = function (data, element) {
-        $(element).attr('class', data);
+        /** @var {Number} length */
+        var index,
+            length = data.length;
+
+        for (index = 0; index < length; index += 1) {
+            $(element).attr('class', data[index]);
+        }
 
         return this;
     };
@@ -150,7 +156,7 @@
     Vendors.FieldHandlers = {
         namespaces: Vendors.insertNamespaces,
         support: Vendors.insertLink,
-        partner: Vendors.addClass,
+        partnerships: Vendors.addClass,
         extdn: Vendors.insertMemberIcon
     };
 
