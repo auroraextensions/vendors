@@ -37,6 +37,10 @@ td.business_solution_partner {
   background-image: url("/assets/img/business_solution_partner.png");
 }
 
+td.contributor_solution_partner {
+  background-image: url("/assets/img/contributor_solution_partner.png");
+}
+
 td.enterprise_solution_partner {
   background-image: url("/assets/img/enterprise_solution_partner.png");
 }

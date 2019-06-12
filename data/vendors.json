@@ -5,6 +5,9 @@
       "Aheadworks"
     ],
     "support": "https://ecommerce.aheadworks.com/contacts",
+    "partnerships": [
+      "premier_extension_builder"
+    ],
     "extdn": true
   },
   {
@@ -13,6 +16,7 @@
       "Aitoc"
     ],
     "support": "https://support.aitoc.com/index.php?/Knowledgebase/List",
+    "partnerships": [],
     "extdn": false
   },
   {
@@ -21,6 +25,9 @@
       "Amasty"
     ],
     "support": "https://amasty.com/contacts",
+    "partnerships": [
+      "premier_extension_builder"
+    ],
     "extdn": false
   },
   {
@@ -29,6 +36,10 @@
       "Atwix"
     ],
     "support": "https://www.atwix.com/contact/",
+    "partnerships": [
+      "professional_solution_partner",
+      "contributor_solution_partner"
+    ],
     "extdn": false
   },
   {
@@ -38,6 +49,7 @@
       "NickolasBurr"
     ],
     "support": "https://auroraextensions.com/pages/contact-us",
+    "partnerships": [],
     "extdn": true
   },
   {
@@ -47,6 +59,7 @@
       "MDN"
     ],
     "support": "https://www.boostmyshop.com/contact",
+    "partnerships": [],
     "extdn": false
   },
   {
@@ -55,6 +68,7 @@
       "Bss"
     ],
     "support": "https://bsscommerce.com/contact",
+    "partnerships": [],
     "extdn": false
   },
   {
@@ -63,6 +77,9 @@
       "CedCommerce"
     ],
     "support": "https://support.cedcommerce.com",
+    "partnerships": [
+      "community_insider"
+    ],
     "extdn": false
   },
   {
@@ -71,6 +88,7 @@
       "Cobby"
     ],
     "support": "https://help.cobby.io",
+    "partnerships": [],
     "extdn": true
   },
   {
@@ -79,6 +97,7 @@
       "CustomGento"
     ],
     "support": "info@customgento.com",
+    "partnerships": [],
     "extdn": true
   },
   {
@@ -87,6 +106,9 @@
       "DCKAP"
     ],
     "support": "https://www.dckap.com/contact-us.htm",
+    "partnerships": [
+      "professional_solution_partner"
+    ],
     "extdn": false
   },
   {
@@ -95,6 +117,9 @@
       "Ebizmarts"
     ],
     "support": "https://ebizmarts.com/contact-us",
+    "partnerships": [
+      "select_technology_partner"
+    ],
     "extdn": true
   },
   {
@@ -103,6 +128,7 @@
       "Emipro"
     ],
     "support": "info@emiprotechnologies.com",
+    "partnerships": [],
     "extdn": false
   },
   {
@@ -111,6 +137,7 @@
       "Extendware"
     ],
     "support": "https://www.extendware.com/contacts",
+    "partnerships": [],
     "extdn": false
   },
   {
@@ -119,6 +146,7 @@
       "Firebear"
     ],
     "support": "https://firebearstudio.com/contacts",
+    "partnerships": [],
     "extdn": true
   },
   {
@@ -127,6 +155,7 @@
       "FMEExtensions"
     ],
     "support": "https://www.fmeextensions.com/contacts",
+    "partnerships": [],
     "extdn": false
   },
   {
@@ -135,6 +164,7 @@
       "Fooman"
     ],
     "support": "https://store.fooman.co.nz/contacts",
+    "partnerships": [],
     "extdn": true
   },
   {
@@ -143,6 +173,9 @@
       "Integernet"
     ],
     "support": "https://www.integer-net.de/kontakt",
+    "partnerships": [
+      "business_solution_partner"
+    ],
     "extdn": true
   },
   {
@@ -151,6 +184,9 @@
       "IWD"
     ],
     "support": "https://www.iwdagency.com/contact",
+    "partnerships": [
+      "professional_solution_partner"
+    ],
     "extdn": false
   },
   {
@@ -159,6 +195,7 @@
       "Mageants"
     ],
     "support": "https://www.mageants.com/contact-us.html",
+    "partnerships": [],
     "extdn": false
   },
   {
@@ -167,6 +204,7 @@
       "Magebees"
     ],
     "support": "https://www.magebees.com/contact-us",
+    "partnerships": [],
     "extdn": false
   },
   {
@@ -175,6 +213,7 @@
       "MageModule"
     ],
     "support": "https://www.magemodule.com/contact",
+    "partnerships": [],
     "extdn": true
   },
   {
@@ -183,6 +222,9 @@
       "Magenest"
     ],
     "support": "https://magenest.com/en/contact-us/",
+    "partnerships": [
+      "business_solution_partner"
+    ],
     "extdn": false
   },
   {
@@ -191,6 +233,9 @@
       "Mageplaza"
     ],
     "support": "https://www.mageplaza.com/contact.html",
+    "partnerships": [
+      "select_extension_builder"
+    ],
     "extdn": false
   },
   {
@@ -199,6 +244,7 @@
       "MagePsycho"
     ],
     "support": "https://www.magepsycho.com/contact",
+    "partnerships": [],
     "extdn": false
   },
   {
@@ -207,6 +253,7 @@
       "Mageside"
     ],
     "support": "https://mageside.com/contacts",
+    "partnerships": [],
     "extdn": false
   },
   {
@@ -215,6 +262,7 @@
       "MageVision"
     ],
     "support": "https://www.magevision.com/contact/",
+    "partnerships": [],
     "extdn": false
   },
   {
@@ -223,6 +271,7 @@
       "Magewares"
     ],
     "support": "support@magewares.com",
+    "partnerships": [],
     "extdn": false
   },
   {
@@ -231,6 +280,9 @@
       "MageWorx"
     ],
     "support": "https://www.mageworx.com/support/",
+    "partnerships": [
+      "select_extension_builder"
+    ],
     "extdn": false
   },
   {
@@ -239,6 +291,7 @@
       "Magmodules"
     ],
     "support": "https://www.magmodules.eu/contact-us.html",
+    "partnerships": [],
     "extdn": false
   },
   {
@@ -247,6 +300,7 @@
       "Meetanshi"
     ],
     "support": "https://meetanshi.com/contacts/",
+    "partnerships": [],
     "extdn": false
   },
   {
@@ -255,6 +309,7 @@
       "Mirasvit"
     ],
     "support": "https://mirasvit.com/contact",
+    "partnerships": [],
     "extdn": false
   },
   {
@@ -263,6 +318,7 @@
       "Modulwerft"
     ],
     "support": "https://www.modulwerft.com/contacts",
+    "partnerships": [],
     "extdn": true
   },
   {
@@ -271,6 +327,7 @@
       "Neklo"
     ],
     "support": "https://store.neklo.com/contacts",
+    "partnerships": [],
     "extdn": false
   },
   {
@@ -279,6 +336,7 @@
       "Netresearch"
     ],
     "support": "https://www.netresearch.de/en/contact/",
+    "partnerships": [],
     "extdn": true
   },
   {
@@ -287,6 +345,7 @@
       "Onestepcheckout"
     ],
     "support": "https://www.onestepcheckout.com/contacts",
+    "partnerships": [],
     "extdn": true
   },
   {
@@ -295,6 +354,9 @@
       "ParadoxLabs"
     ],
     "support": "https://www.paradoxlabs.com/contact/",
+    "partnerships": [
+      "business_solution_partner"
+    ],
     "extdn": true
   },
   {
@@ -303,6 +365,7 @@
       "PluginCompany"
     ],
     "support": "https://plugin.company/contact",
+    "partnerships": [],
     "extdn": false
   },
   {
@@ -311,6 +374,7 @@
       "Plumrocket"
     ],
     "support": "https://store.plumrocket.com/contacts",
+    "partnerships": [],
     "extdn": false
   },
   {
@@ -319,6 +383,7 @@
       "Pronko"
     ],
     "support": "https://www.pronkoconsulting.com/contact",
+    "partnerships": [],
     "extdn": true
   },
   {
@@ -327,6 +392,9 @@
       "Raveinfosys"
     ],
     "support": "https://www.raveinfosys.com/contact-us/",
+    "partnerships": [
+      "professional_solution_partner"
+    ],
     "extdn": false
   },
   {
@@ -335,6 +403,9 @@
       "RocketWeb"
     ],
     "support": "https://rocketweb.com/contact",
+    "partnerships": [
+      "professional_solution_partner"
+    ],
     "extdn": true
   },
   {
@@ -343,6 +414,7 @@
       "SafeMage"
     ],
     "support": "https://www.safemage.com/contacts",
+    "partnerships": [],
     "extdn": false
   },
   {
@@ -351,6 +423,7 @@
       "ScommerceMage"
     ],
     "support": "https://www.scommerce-mage.com/contact-us.html",
+    "partnerships": [],
     "extdn": false
   },
   {
@@ -360,6 +433,7 @@
       "Swissup"
     ],
     "support": "https://templates-master.com/contacts",
+    "partnerships": [],
     "extdn": false
   },
   {
@@ -368,6 +442,7 @@
       "Webkul"
     ],
     "support": "https://webkul.com/contacts/",
+    "partnerships": [],
     "extdn": false
   },
   {
@@ -376,6 +451,7 @@
       "WebShopApps"
     ],
     "support": "https://webshopapps.com/contacts",
+    "partnerships": [],
     "extdn": true
   },
   {
@@ -384,6 +460,9 @@
       "WeltPixel"
     ],
     "support": "https://support.weltpixel.com",
+    "partnerships": [
+      "select_extension_builder"
+    ],
     "extdn": false
   },
   {
@@ -392,6 +471,9 @@
       "Wyomind"
     ],
     "support": "https://www.wyomind.com/contact.html",
+    "partnerships": [
+      "select_extension_builder"
+    ],
     "extdn": false
   },
   {
@@ -400,6 +482,7 @@
       "Xtento"
     ],
     "support": "https://www.xtento.com/contacts",
+    "partnerships": [],
     "extdn": true
   },
   {
@@ -408,6 +491,7 @@
       "Yireo"
     ],
     "support": "https://www.yireo.com/contact",
+    "partnerships": [],
     "extdn": true
   }
 ]
