@@ -62,4 +62,8 @@ table th {
     text-overflow: ellipsis;
     white-space: nowrap;
   }
+
+  td[data-label="partnerships"] {
+    background-position: right;
+  }
 }

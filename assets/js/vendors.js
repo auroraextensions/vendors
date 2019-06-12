@@ -121,8 +121,7 @@
         var index,
             length = data.length;
 
-        /* Truncate root node text content. */
-        element.textContent = '';
+        element.innerHTML = '&nbsp;';
 
         /** @var {Number} index */
         for (index = 0; index < length; index += 1) {
