@@ -126,7 +126,7 @@
 
         /** @var {Number} index */
         for (index = 0; index < length; index += 1) {
-            $(element).attr('class', data[index]);
+            $(element).addClass(data[index]);
         }
 
         return this;
