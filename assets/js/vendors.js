@@ -41,11 +41,12 @@
     /**
      * Insert nested <code> elements.
      *
-     * @param {Object} data
+     * @param {Array} data
      * @param {HTMLElement} element
      * @return {this}
      */
     Vendors.insertNamespaces = function (data, element) {
+        /** @var {Number} length */
         var code,
             index,
             length = data.length;
@@ -53,6 +54,7 @@
         /* Truncate root node text content. */
         element.textContent = '';
 
+        /** @var {Number} index */
         for (index = 0; index < length; index += 1) {
             /** @var {HTMLCodeElement} code */
             code = document.createElement('code');
@@ -65,13 +67,13 @@
     };
 
     /**
-     * Insert <a> support link.
+     * Insert <a> link.
      *
-     * @param {Object} data
+     * @param {String} data
      * @param {HTMLElement} element
      * @return {this}
      */
-    Vendors.insertSupportLink = function (data, element) {
+    Vendors.insertLink = function (data, element) {
         var link,
             isEmail;
 
@@ -97,12 +99,25 @@
     /**
      * Insert ExtDN member status icon.
      *
-     * @param {Object} data
+     * @param {Boolean} data
      * @param {HTMLElement} element
      * @return {this}
      */
     Vendors.insertMemberIcon = function (data, element) {
         element.innerHTML = !!data ? '&#10004;' : '&ndash;';
+
+        return this;
+    };
+
+    /**
+     * Add class to element.
+     *
+     * @param {String} data
+     * @param {HTMLElement} element
+     * @return {this}
+     */
+    Vendors.addClass = function (data, element) {
+        $(element).attr('class', data);
 
         return this;
     };
@@ -131,10 +146,11 @@
         return result;
     };
 
-    /** @property {Object} FieldHandlers ~ Field-specific parser functions */
+    /** @property {Object} FieldHandlers ~ Field-specific functions */
     Vendors.FieldHandlers = {
         namespaces: Vendors.insertNamespaces,
-        support: Vendors.insertSupportLink,
+        support: Vendors.insertLink,
+        partner: Vendors.addClass,
         extdn: Vendors.insertMemberIcon
     };
 
@@ -171,7 +187,6 @@
         /** @var {Array} keys */
         /** @var {Number} length */
         var rows,
-            func,
             data = response ? response : [],
             keys = this.getKeys(data[0]),
             length = keys.length;
