@@ -26,7 +26,7 @@ table.ftw {
   width: 100%;
 }
 
-td[data-label="partner"] {
+td[data-label="partnerships"] {
   background-origin: content-box;
   background-position: center;
   background-repeat: no-repeat;

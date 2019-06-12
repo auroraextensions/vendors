@@ -121,6 +121,10 @@
         var index,
             length = data.length;
 
+        /* Truncate root node text content. */
+        element.textContent = '';
+
+        /** @var {Number} index */
         for (index = 0; index < length; index += 1) {
             $(element).attr('class', data[index]);
         }
