@@ -166,7 +166,9 @@
       "Fooman"
     ],
     "support": "https://store.fooman.co.nz/contacts",
-    "partnerships": [],
+    "partnerships": [
+      "select_extension_builder"
+    ],
     "extdn": true
   },
   {
