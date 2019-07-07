@@ -79,3 +79,12 @@ td.select_extension_builder {
 td.community_insider {
   background-image: url("/assets/img/community_insider.png");
 }
+
+footer {
+  margin: 5px auto;
+  padding: 5px;
+}
+
+footer div {
+  text-align: center;
+}
