@@ -48,7 +48,7 @@
       "AuroraExtensions",
       "NickolasBurr"
     ],
-    "support": "https://auroraextensions.com/pages/contact-us",
+    "support": "https://auroraextensions.com/pages/contact",
     "partnerships": [
       "community_insider"
     ],
@@ -130,7 +130,9 @@
       "Emipro"
     ],
     "support": "info@emiprotechnologies.com",
-    "partnerships": [],
+    "partnerships": [
+      "community_insider"
+    ],
     "extdn": false
   },
   {
