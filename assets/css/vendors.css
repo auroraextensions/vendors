@@ -2,7 +2,7 @@
  * vendors.css
  */
 body {
-  margin: 2rem;
+  margin: 2rem 0;
   padding: 0 1rem;
 }
 
@@ -75,13 +75,13 @@ td.select_extension_builder {
   background-image: url("/assets/img/select_extension_builder.png");
 }
 
-/* Community Insider */
+/* Community Insiders */
 td.community_insider {
   background-image: url("/assets/img/community_insider.png");
 }
 
 footer {
-  margin: 10px auto;
+  margin: 1rem auto;
   padding: 5px;
 }
 
