@@ -4,6 +4,8 @@ This repository serves as a running list of known Magento extension vendors,
 which includes information about company name, package namespace(s), support
 contacts, and [ExtDN](https://extdn.org) affiliation.
 
+If you would like to suggest improvements, please open an issue for discussion.
+
 ## Table of Contents
 
 - [Contributing](https://github.com/auroraextensions/vendors/blob/master/.github/CONTRIBUTING.md)
