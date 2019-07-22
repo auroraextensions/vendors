@@ -22,10 +22,6 @@ section.legend > ol {
   padding-inline-start: 20px;
 }
 
-table.ftw {
-  width: 100%;
-}
-
 td[data-label="partnerships"] {
   background-origin: content-box;
   background-position: center;
@@ -85,6 +81,6 @@ footer {
   padding: 5px;
 }
 
-footer div {
+footer section {
   text-align: center;
 }
