@@ -87,3 +87,11 @@ header, footer {
 footer section {
   text-align: center;
 }
+
+/* GitHub ribbon */
+
+@media screen and (max-width: 1214px) {
+  .github-fork-ribbon {
+    display: none !important;
+  }
+}
