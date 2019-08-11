@@ -2,6 +2,10 @@
  * vendors.css
  */
 
+html {
+  font-family: 'Karla', sans-serif;
+}
+
 body {
   margin: 2rem 0;
   padding: 0 1rem;
