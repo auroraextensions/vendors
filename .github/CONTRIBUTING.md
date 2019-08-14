@@ -4,7 +4,6 @@
 
 - [Guidelines](#guidelines)
 - [Files](#files)
-- [Formatting](#formatting)
   + [Notes](#notes)
 - [Pull Request Process](#pull-request-process)
 
@@ -18,35 +17,7 @@ When contributing to this repository, please ensure the following:
 
 ## Files
 
-New entries should be included in the following files:
-
-- [README.md](https://github.com/auroraextensions/vendors/blob/master/README.md)
-- [vendors.json](https://github.com/auroraextensions/vendors/blob/master/data/vendors.json) (This will also include you on [https://vendors.auroraextensions.com](https://vendors.auroraextensions.com))
-
-## Formatting
-
-In README, new entries should utilize the following format:
-
-```html
-<tr>
-  <td>Acme</td>
-  <td>
-    <div>
-      <code>Acme</code>
-    </div>
-    <!-- If applicable, include ancillary namespaces associated with the vendor. -->
-    <div>
-      <code>AcmeWorks</code>
-    </div>
-  </td>
-  <td>
-    <a href="https://example.com/contact">https://example.com/contact</a>
-  </td>
-  <td>&ndash;</td>
-</tr>
-```
-
-In vendors.json, new entries should utilize the following format:
+New entries should be included in `vendors.json` and utilize the following format:
 
 ```json
 {
@@ -56,6 +27,9 @@ In vendors.json, new entries should utilize the following format:
     "AcmeWorks"
   ],
   "support": "https://example.com/contact",
+  "partnerships": [
+    "select_extension_builder"
+  ],
   "extdn": false
 }
 ```
@@ -64,14 +38,19 @@ In vendors.json, new entries should utilize the following format:
 
 1. At least one (1) namespace is required, but listing all associated namespaces helps
    make this list more complete, so please list all associated namespaces for the vendor.
-
-_README ONLY_:
-
-1. For support link, you may also list an email address, if preferred. However, please
-   make sure to set the email address as a hyperlink via `mailto:`. This does not apply to
-   vendors.json, which only requires the email address and prepends `mailto:` automatically.
-2. For ExtDN affiliation, please use `&#10004;` to signify affiliation, or `&ndash;` otherwise.
-   This does not apply to vendors.json, which only requires `true` or `false`.
+2. If you are a Magento partner, please list all partnerships. Below is the list of valid
+   partnership values to include in the `partnerships` array:
+    - `business_solution_partner`
+    - `community_insider`
+    - `contributor_solution_partner`
+    - `enterprise_solution_partner`
+    - `global_elite_solution_partner`
+    - `magento_technology_partner`
+    - `premier_extension_builder`
+    - `premier_technology_partner`
+    - `professional_solution_partner`
+    - `select_extension_builder`
+    - `select_technology_partner`
 
 ## Pull Request Process
 
