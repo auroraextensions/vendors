@@ -40,17 +40,18 @@ New entries should be included in `vendors.json` and utilize the following forma
    make this list more complete, so please list all associated namespaces for the vendor.
 2. If you are a Magento partner, please list all partnerships. Below is the list of valid
    partnership values to include in the `partnerships` array:
-    - `business_solution_partner`
-    - `community_insider`
-    - `contributor_solution_partner`
-    - `enterprise_solution_partner`
-    - `global_elite_solution_partner`
-    - `magento_technology_partner`
-    - `premier_extension_builder`
-    - `premier_technology_partner`
-    - `professional_solution_partner`
-    - `select_extension_builder`
-    - `select_technology_partner`
+
+- `business_solution_partner`
+- `community_insider`
+- `contributor_solution_partner`
+- `enterprise_solution_partner`
+- `global_elite_solution_partner`
+- `magento_technology_partner`
+- `premier_extension_builder`
+- `premier_technology_partner`
+- `professional_solution_partner`
+- `select_extension_builder`
+- `select_technology_partner`
 
 ## Pull Request Process
 
