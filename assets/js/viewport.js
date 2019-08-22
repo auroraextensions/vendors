@@ -10,7 +10,7 @@
     /**
      * @return {void}
      */
-    Viewport.onReady = function () {
+    Viewport.resize = function () {
         var innerWidth;
 
         /** @var {Number} innerWidth */
@@ -19,6 +19,14 @@
         $(document.documentElement).css({
             'width': (innerWidth + 'px')
         });
+    };
+
+    /**
+     * @return {void}
+     */
+    Viewport.onReady = function () {
+        this.resize();
+        $(window).on('resize', this.resize.bind(this));
     };
 
     $(document).ready(Viewport.onReady.bind(Viewport));
