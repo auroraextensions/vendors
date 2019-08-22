@@ -11,14 +11,11 @@
      * @return {void}
      */
     Viewport.resize = function () {
-        var innerWidth;
-
-        /** @var {Number} innerWidth */
-        innerWidth = window.innerWidth;
-
-        $(document.documentElement).css({
-            'width': (innerWidth + 'px')
-        });
+        window.setTimeout(function () {
+            $(document.documentElement).css({
+                'width': (window.innerWidth + 'px')
+            });
+        }, 500);
     };
 
     /**
