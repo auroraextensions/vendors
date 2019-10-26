@@ -452,6 +452,15 @@
     "extdn": false
   },
   {
+    "vendor": "Ulmod",
+    "namespaces": [
+      "Ulmod"
+    ],
+    "support": "https://www.ulmod.com/helpdesk/ticket/",
+    "partnerships": [],
+    "extdn": false
+  },  
+  {
     "vendor": "Webkul",
     "namespaces": [
       "Webkul"
