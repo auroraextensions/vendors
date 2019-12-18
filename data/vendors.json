@@ -360,7 +360,9 @@
       "Onestepcheckout"
     ],
     "support": "https://www.onestepcheckout.com/contacts",
-    "partnerships": [],
+    "partnerships": [
+      "magento_technology_partner"
+    ],
     "extdn": true
   },
   {
