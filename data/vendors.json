@@ -415,6 +415,15 @@
     "extdn": false
   },
   {
+    "vendor": "RedChamps",
+    "namespaces": [
+      "RedChamps"
+    ],
+    "support": "https://redchamps.com/contact/",
+    "partnerships": [],
+    "extdn": false
+  },
+  {
     "vendor": "Rocket Web",
     "namespaces": [
       "RocketWeb"
